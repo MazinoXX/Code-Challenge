@@ -13,12 +13,12 @@ describe('Test para el service de los partners', () => {
     test('2. Obten los emails de los partners certificados', () => {
 
         
-        const partnersEmails = PartnerService.getEmailForCertificatedPartners('./dataTest/partner1.json')
+        const partnersEmails = PartnerService.getEmailForCertificatedPartners('./dataTest/partner1.json',true)
         expect(expect.arrayContaining(partnersEmails)).toEqual(["Todd@visualpartnership.xyz", "Sexton@visualpartnership.xyz"])
     })
     test('3. Lista de partners con mas de 500 creditos', () => {
 
-        const partnerCredits = PartnerService.partnersAbove500('./dataTest/partner1.json')
+        const partnerCredits = PartnerService.partnersAbove500('./dataTest/partner1.json',500)
 
         expect(expect.arrayContaining(partnerCredits)).toEqual(["Warren","Lucinda"])
     })
