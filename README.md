@@ -50,3 +50,12 @@ Estructura de las clases en el proyecto.
       PartnerService-->PartnerController
       PartnerController-->Server
 ```
+
+
+## Postman
+
+Pudes usar postman para consultar los endpoints.
+
+https://user-images.githubusercontent.com/94636815/166490034-ac9cd206-87ee-44ff-a8c0-026184954937.mp4
+
+
