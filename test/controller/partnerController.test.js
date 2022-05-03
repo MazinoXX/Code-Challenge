@@ -25,13 +25,13 @@ describe('Pruebas del controller para los partners', () => {
     test('4. Usando el controller para los emails', () => {
 
         const emails = PartnerController.EmailForCertificatedPartners(true)
-        expect(expect.arrayContaining(emails)).toEqual(["Todd@visualpartnership.xyz", "Sexton@visualpartnership.xyz"])
+        expect(expect.arrayContaining(emails)).toEqual(["Todd@visualpartnership.xyz","Sexton@visualpartnership.xyz","Sharlene@visualpartnership.xyz","Howell@visualpartnership.xyz","Haynes@visualpartnership.xyz","Montoya@visualpartnership.xyz","Benton@visualpartnership.xyz","Dionne@visualpartnership.xyz","Mcpherson@visualpartnership.xyz","Gracie@visualpartnership.xyz","Ila@visualpartnership.xyz","Dorthy@visualpartnership.xyz","Mcfarland@visualpartnership.xyz","Maryann@visualpartnership.xyz","Alana@visualpartnership.xyz","Rosemary@visualpartnership.xyz","Keith@visualpartnership.xyz","Delaney@visualpartnership.xyz","Ball@visualpartnership.xyz","Sally@visualpartnership.xyz","Antoinette@visualpartnership.xyz","Juliette@visualpartnership.xyz","Harding@visualpartnership.xyz","Dixon@visualpartnership.xyz","Beulah@visualpartnership.xyz","Moses@visualpartnership.xyz","Shields@visualpartnership.xyz","Jewell@visualpartnership.xyz","Hays@visualpartnership.xyz"])
 
     })
     test('5. Implementando el controller para los creditos de los partners', () => {
 
         const creditos = PartnerController.partnersUp500Credits(500)
-        expect(expect.arrayContaining(creditos)).toEqual(["Warren","Lucinda"])
+        expect(expect.arrayContaining(creditos)).toEqual(["Warren","Lucinda","Phillips","Taylor","Mindy","Kara","Cora","Roxanne","Bennett","Bessie","Obrien","Lynda","Carey","Gilda","Elba","Wall","Cecile","Reyna","Richards","Lindsey","Margret","Laverne","Ayers","Tillman","Mosley","Chase","Ware"])
 
 
     })
