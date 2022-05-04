@@ -57,7 +57,7 @@ Estructura de las clases en el proyecto.
 |---|---|
 | `localhost:3000/v1/partner/` | `localhost:3000/v1/partner` | 
 | `localhost:3000/v1/partner/emails` | `localhost:3000/v1/partner/emails` | 
-| `localhost:3000/v1/partner/credits` | `localhost:3000/v1/partner/500` | 
+| `localhost:3000/v1/partner/student/credits` | `localhost:3000/v1/partner/student/500` | 
 
 
 ## Postman
