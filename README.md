@@ -56,14 +56,35 @@ Estructura de las clases en el proyecto.
 | Endpoint | Request |
 |---|---|
 | `localhost:3000/v1/partner/` | `localhost:3000/v1/partner` | 
-| `localhost:3000/v1/partner/emails` | `localhost:3000/v1/partner/emails` | 
-| `localhost:3000/v1/partner/student/credits` | `localhost:3000/v1/partner/student/500` | 
+| `localhost:3000/v1/partner/emails` | `localhost:3000/v1/partner` | 
+| `localhost:3000/v1/partner/student/:credits` | `localhost:3000/v1/partner/student/500` | 
 
+## Response
+Endpoint `localhost:3000/v1/partner`
+
+![partnerlist](https://user-images.githubusercontent.com/94636815/166703699-ac98e095-ba44-4491-ae6c-7ae03e355017.png)
+___
+Endpoint `localhost:3000/v1/partner`
+
+![partneremails](https://user-images.githubusercontent.com/94636815/166704051-61c24ca4-ee50-4e53-b08e-3d43ef2c8398.png)
+___
+Endpoint `localhost:3000/v1/partner/student/500`
+
+![students500](https://user-images.githubusercontent.com/94636815/166704240-ae8ccfd1-0839-4f70-9788-b72442ef2cb4.png)
 
 ## Postman
 
 Pudes usar postman para consultar los endpoints.
 
 https://user-images.githubusercontent.com/94636815/166490034-ac9cd206-87ee-44ff-a8c0-026184954937.mp4
+
+## Tecnologías
+
+* JavaScript
+* Jest
+* Github Actions
+* ESLint
+* Express
+* Postman
 
 
